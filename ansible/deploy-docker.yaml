@@ -54,7 +54,7 @@
   tasks:
     - name: copy docker compose file
       copy:
-        src: /home/akram/Documents/DevopsPractice/nodejs-app/docker-compose.yaml
+        src: /docker-compose.yaml
         dest: /home/ec2-user/docker-compose.yaml
     - name: docker login
       docker_login:
