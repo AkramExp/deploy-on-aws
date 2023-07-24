@@ -46,6 +46,8 @@
         name: ec2-user
         group: docker
         append: yes
+    - name: reconnet to server
+      meta: reset_connection
 
 - name: start docker containers
   hosts: aws
