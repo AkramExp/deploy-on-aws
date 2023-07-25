@@ -1,7 +1,7 @@
 version: '3'
 services:
   my-app:
-    image: akramexp/my-repo:jma-4.0
+    image: akramexp/my-repo:nodejs-1.0
     ports:
     - 3000:3000
   mongodb:
